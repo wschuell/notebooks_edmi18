@@ -9,7 +9,11 @@ Simple Experiment: to get used to how the experiment works, quick to run
 Active Topic Choice: replot figures from the poster, can be long to run (~1-2h)
 ```
 
-Dependency:
+To launch the notebook server (inside a docker container, it should work on every platform):
 ```
-pip install -e git+https://github.com/flowersteam/naminggamesal.git@49c5f057fc76bb74305de2d262eace56faacbc11#egg=naminggamesal
+python run.py
 ```
+
+Dependencies:
+* Docker: https://docs.docker.com/install/
+* Docker-compose: `pip install docker-compose`
